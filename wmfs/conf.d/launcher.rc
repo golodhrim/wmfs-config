@@ -1,0 +1,10 @@
+# wmfs/conf.d/launcher.rc
+# Launcher section
+
+[launcher]
+    [set_launcher]
+        name = "launcher_exec" 
+        prompt = "\i[5;0;16;16;/home/golodhrim/.config/wmfs/img/prompt.png]\      : " 
+        command = "exec" 
+    [/set_launcher]
+[/launcher]

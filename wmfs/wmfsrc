@@ -1,0 +1,13 @@
+# wmfs/wmfsrc
+# golodhrim's config file
+
+@include "/home/golodhrim/.config/wmfs/conf.d/misc.rc" 
+@include "/home/golodhrim/.config/wmfs/conf.d/bar.rc" 
+@include "/home/golodhrim/.config/wmfs/conf.d/layouts.rc" 
+@include "/home/golodhrim/.config/wmfs/conf.d/rules.rc" 
+@include "/home/golodhrim/.config/wmfs/conf.d/tags.rc" 
+@include "/home/golodhrim/.config/wmfs/conf.d/root.rc" 
+@include "/home/golodhrim/.config/wmfs/conf.d/client.rc" 
+@include "/home/golodhrim/.config/wmfs/conf.d/menu.rc" 
+@include "/home/golodhrim/.config/wmfs/conf.d/launcher.rc" 
+@include "/home/golodhrim/.config/wmfs/conf.d/keys.rc"

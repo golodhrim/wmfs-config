@@ -1,0 +1,30 @@
+# wmfs/conf.d/menu.rc
+# Menu section
+
+[menu]
+    [set_menu]
+        name  = "rootmenu" 
+        align = "left" 
+
+        fg_focus  = "#CCCCCC" bg_focus  = "#333333" 
+        fg_normal = "#888888" bg_normal = "#222222" 
+
+        [item] name = "\i[0;0;16;16;/home/golodhrim/.config/wmfs/img/browser.png]\      Browser"      func = "spawn" cmd = "firefox"          [/item]
+        [item] name = "\i[0;0;16;16;/home/golodhrim/.config/wmfs/img/transmission.png]\      Torrent" func = "spawn" cmd = "transmission-gtk" [/item]
+        [item] name = "\i[0;0;16;16;/home/golodhrim/.config/wmfs/img/prompt.png]\      Terminal"      func = "spawn" cmd = "urxvt"            [/item]
+        [item] name = "\i[0;0;16;16;/home/golodhrim/.config/wmfs/img/mpd-stop.png]\      Quit WMFS"   func = "quit"                           [/item]
+        [item] name = "\i[0;0;10;16;/home/golodhrim/.config/wmfs/img/wine.png]\      Wine"            submenu = "wine-menu"                   [/item]
+    [/set_menu]
+
+    [set_menu]
+        name  = "clientmenu" 
+        align = "left" 
+
+        fg_focus  = "#CCCCCC" bg_focus  = "#333333" 
+        fg_normal = "#888888" bg_normal = "#222222" 
+
+        [item] name = "Close"    func = "client_kill"                      [/item]
+        [item] name = "Maximize" func = "toggle_max"  check = "check_max"  [/item]
+        [item] name = "Free"     func = "toggle_free" check = "check_free" [/item]
+    [/set_menu]
+[/menu]

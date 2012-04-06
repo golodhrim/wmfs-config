@@ -1,0 +1,10 @@
+# wmfs/conf.d/root.rc
+# Root section
+
+[root]
+    background_command = "/home/golodhrim/.config/autostart/autostart"
+
+    [mouse] button = "4" func = "tag_next"              [/mouse]
+    [mouse] button = "5" func = "tag_prev"              [/mouse]
+    [mouse] button = "6" func = "menu" cmd = "rootmenu" [/mouse]
+[/root]

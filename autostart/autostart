@@ -1,0 +1,10 @@
+#!/bin/sh
+
+${HOME}/.config/wmfs/status/status.sh &
+nitrogen --restore &
+conky -c ${HOME}/.git/gitent/dot-config/config/conky/conkyrc --daemonize &
+wpa_gui &
+guake &
+virt-manager &
+dropbox &
+urxvtd -q -f -o &

@@ -1,0 +1,105 @@
+# wmfs/conf.d/tags.rc
+# Tags section
+
+[tags]
+    [default_tag]
+        name                = "new tag"
+        mwfact              = 0.65
+        nmaster             = 1
+        layout              = "tile_right"
+        resizehint          = false
+        inforbar_position   = "top"
+    [/default_tag]
+    
+    number_count    = true
+
+    tag_round       = true
+    occupied_bg     = "#6fafd1"
+    sel_fg          = "#ff6b6b"
+    sel_bg          = "#1791d1"
+    urgent_bg       = "#ff6b6b"
+    urgend_fg       = "#000000"
+    border          = false
+
+    [tag]
+        screen              = 0
+        name                = "1|\i[10;0;20;20;/home/golodhrim/.config/wmfs/img/tray/sys.png]\ "
+        mwfact              = 0.65
+        nmaster             = 1
+        resizehint          = false
+        infobar_position    = "top"
+        layout              = "tile_top"
+    [/tag]
+    [tag] 
+        screen = 0 
+        name = "2|\i[10;0;20;20;/home/golodhrim/.config/wmfs/img/tray/browser.png]\ " 
+        mwfact = 0.65 
+        nmaster = 1 
+        resizehint = false 
+        infobar_position = "top" 
+        layout = "free"    
+    [/tag]
+    [tag] 
+        screen = 0 
+        name = "3|\i[10;0;20;20;/home/golodhrim/.config/wmfs/img/tray/email.png]\ " 
+        mwfact = 0.65 
+        nmaster = 1 
+        resizehint = false 
+        infobar_position = "top" 
+        layout = "mirror_horizontal"
+    [/tag]
+    [tag] 
+        screen = 0 
+        name = "4|\i[10;0;20;20;/home/golodhrim/.config/wmfs/img/tray/emacs.png]\ " 
+        mwfact = 0.65 
+        nmaster = 1 
+        resizehint = false 
+        infobar_position = "top" 
+        layout = "tile_bottom"
+    [/tag]
+    [tag] 
+        screen = 0 
+        name = "5|\i[10;0;20;20;/home/golodhrim/.config/wmfs/img/tray/libreoffice.png]\ " 
+        mwfact = 0.65 
+        nmaster = 1 
+        resizehint = false 
+        infobar_position = "top" 
+        layout = "free"
+    [/tag]
+    [tag] 
+        screen = 0 
+        name = "6|\i[10;0;20;20;/home/golodhrim/.config/wmfs/img/tray/gimp.png]\ " 
+        mwfact = 0.65 
+        nmaster = 1 
+        resizehint = false 
+        infobar_position = "top" 
+        layout = "free"
+    [/tag]
+    [tag] 
+        screen = 0 
+        name = "7|\i[10;0;20;20;/home/golodhrim/.config/wmfs/img/tray/mplayer.png]\ " 
+        mwfact = 0.65 
+        nmaster = 1 
+        resizehint = false 
+        infobar_position = "top" 
+        layout = "free"
+    [/tag]
+    [tag] 
+        screen = 0 
+        name = "8|\i[10;0;20;20;/home/golodhrim/.config/wmfs/img/tray/dl.png]\ " 
+        mwfact = 0.65 
+        nmaster = 1 
+        resizehint = false 
+        infobar_position = "top" 
+        layout = "tile_right"
+        [/tag]
+    [tag] 
+        screen = 0 
+        name = "9|\i[10;0;20;20;/home/golodhrim/.config/wmfs/img/tray/prompt.png]\ " 
+        mwfact = 0.65 
+        nmaster = 1 
+        resizehint = false 
+        infobar_position = "top" 
+        layout = "tile_right"
+    [/tag]
+[/tags]

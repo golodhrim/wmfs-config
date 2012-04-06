@@ -1,0 +1,22 @@
+# wmfs/conf.d/layouts.rc
+# Layouts section
+
+[layouts]
+    fg  = "#1791d1"
+    bg  = "#000000"
+
+    border  = true
+    system  = "menu"
+
+    keep_layout_geo = false
+
+    [layout] type = "tile_right"        symbol = "      \i[13;2;15;13;/home/golodhrim/.config/wmfs/layout/tr.png]\ " [/layout]
+    [layout] type = "tile_left"         symbol = "      \i[13;2;15;13;/home/golodhrim/.config/wmfs/layout/tl.png]\ " [/layout]
+    [layout] type = "tile_top"          symbol = "      \i[13;2;15;13;/home/golodhrim/.config/wmfs/layout/tt.png]\ " [/layout]
+    [layout] type = "tile_bottom"       symbol = "      \i[13;2;15;13;/home/golodhrim/.config/wmfs/layout/tb.png]\ " [/layout]
+    [layout] type = "tile_grid"         symbol = "      \i[13;2;15;13;/home/golodhrim/.config/wmfs/layout/tg.png]\ " [/layout]
+    [layout] type = "mirror_vertical"   symbol = "      \i[13;2;15;13;/home/golodhrim/.config/wmfs/layout/mv.png]\ " [/layout]
+    [layout] type = "mirror_horizontal" symbol = "      \i[13;2;15;13;/home/golodhrim/.config/wmfs/layout/mh.png]\ " [/layout]
+    [layout] type = "max"               symbol = "      \i[13;2;15;13;/home/golodhrim/.config/wmfs/layout/max.png]\ " [/layout]
+    [layout] type = "free"              symbol = "      \i[13;2;15;13;/home/golodhrim/.config/wmfs/layout/fr.png]\ " [/layout]
+[/layouts]

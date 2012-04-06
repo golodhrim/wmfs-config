@@ -1,0 +1,25 @@
+# wmfs/conf.d/bar.rc
+# Bar section
+
+[bar]
+    bg      = "#000000"
+    fg      = "#1791d1"
+    border  = false
+
+    [selbar]
+        bg  = "#1791d1"
+        fg  = "#ff6b6b"
+
+        max_lenght  = 75
+
+        [mouse] button = "3" func = "clientlist"    [/mouse]
+        [mouse] button = "4" func = "client_next"   [/mouse]
+        [mouse] button = "5" func = "client_prev"   [/mouse]
+    [/selbar]
+
+    [systray]
+        active  = true
+        screen  = 0
+        spacing = 1
+    [/systray]
+[/bar]

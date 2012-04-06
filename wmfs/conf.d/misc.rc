@@ -1,0 +1,11 @@
+# wmfs/conf.d/misc.rc
+# Misc section
+
+[misc]
+     font                = "terminus-9" 
+     raisefocus          = true
+     focus_follow_mouse  = false
+     focus_pointer_click = true
+     status_timing       = 1 # seconds
+     status_path         = "/home/golodhrim/.config/wmfs/status/status.sh" 
+[/misc]
